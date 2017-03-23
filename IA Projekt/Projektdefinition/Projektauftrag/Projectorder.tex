@@ -1,0 +1,125 @@
+%******************************FORMATIERUNG****************************************
+\documentclass[a4paper, 12pt]{article}
+\usepackage{scrpage2}
+\usepackage{todonotes}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{caption}
+\pagestyle{scrheadings}
+\clearscrheadfoot
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[space]{grffile}
+\usepackage{setspace}
+\usepackage[T1]{fontenc}
+\newcommand{\changefont}[3]{
+\fontfamily{#1} \fontseries{#2} \fontshape{#3} \selectfont}
+\usepackage{datetime}
+\newdateformat{monthyeardate}{%
+  \monthname[\THEMONTH] \THEYEAR}
+\usepackage{geometry}
+\geometry{verbose,a4paper,tmargin=30mm,bmargin=30mm,lmargin=35mm,rmargin=25mm}
+\usepackage[numbers,square]{natbib}
+\usepackage[
+	breaklinks=true,
+	pdfauthor={Laura Anger, Vera Brockmeyer, Paul Berning, Lukas Kolhagen},
+	pdftitle={Masterprojekt - MArC},
+	pdftoolbar=true,
+	pdfsubject={Mixed Reality Architecture Composer},
+	colorlinks=true,
+	linkcolor=blue,
+	citecolor=blue,
+	urlcolor=blue,
+	linktocpage=true
+	]{hyperref}
+\usepackage{algorithmicx}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage[ruled]{algorithm}
+\usepackage{algpseudocode}
+\usepackage{pdfpages}
+\usepackage[
+	font=small,
+	labelfont=bf, 
+	format=plain,
+	indention=1cm
+	]{caption}
+\setlength{\parindent}{0pt} 
+\setlength{\parskip}{.5em}
+\usepackage{color}
+\definecolor{myColor}{rgb}{0.8,0.8,0.8}
+\newcommand{\Absatzbox}[1]{\parbox[0pt][2em][c]{0cm}{}}
+\usepackage{listings}
+
+%*****************************ENDE FORMATIERUNG****************************************
+
+\begin{document}
+%\linespread{1.2}
+%\changefont{ppl}{m}{n}
+
+\input{deckblatt.tex}
+\newpage
+
+
+\textbf{\Large Project Order}\\
+
+\textbf{Project Name:}
+
+\textbf{Project Manager:} Vera Brockmeyer
+
+\textbf{Inducement:}
+
+Fass Ergebnisse der Problemanalyse zusammen, macht deutlich, warum dieses Projekt durchgeführt werden muss 
+
+\textbf{Objective and Requirements:}
+
+Projektziele und Detailanforderungen Beschreiben den gewünschten Soll-Zustand
+
+\textbf{Solution Concept}
+
+\textbf{Services}
+The agent is engaged to deliver a scientific project documentation in English language. Each project member is called upon to write an own chapter about his contribution. This documentation should be offered in form of a PDF file and two times in printed form. 
+
+A final project presentation is required as well in September or October. This presentation includes a 30 minutes talk, a live demonstration of the final result and a following discussion.
+
+Furthermore is the delivery of all resulting data files like the program code, content and artwork required. This data has to be copied on a USB-Stick or in a cloud folder with appropriate access rights.
+
+At least, a brief project profile is inquired which includes a short description, two or more significant images and an optional video.
+
+
+
+
+
+Zu erarbeitende Ergebnisse Lösungskonzept, weitere Lieferungen und Leistungen des Auftragnehmers werden genau beschrieben 
+
+\textbf{Budget:}\\
+Entspricht Kostenziel, wird mithilfe von Projektplanung ermittelt
+
+\textbf{Boundary Conditions:}\\
+The first Prototype has to be presented on 01.06.2017 at 10:35 by the project manager. Furthermore, are periodic meetings with the principal required and those have to be arranged via email during the lecture period of SS 2017. Unfortunately, are the room facilities only available at official business hours of the TH Cologne Building. 
+
+\textbf{Appointments and Milestones}
+
+\begin{tabular}{l l}
+	Research Phase & 31.03.2017 - 23.03.2017\\
+	 First Prototype & 31.05. 2017\\
+	 Second Protoype& 11.06. 2017\\
+	 Test Phase& 12.06.-18.06.2017\\
+	 Third Prototype& 25.06.2017\\
+	 Documentation Phase& 26.06.2017-15.07.2017\\
+	 Final Release& 15.07.2017\\
+\end{tabular}
+
+\bigskip
+\bigskip
+\bigskip
+
+
+
+\begin{tabular}{ l l l }
+.................................................................................. & & ..................................................................................\\
+Date and Signature of Principal & &Date and Signature of Agent\\
+\end{tabular}\\
+
+\end{document}
