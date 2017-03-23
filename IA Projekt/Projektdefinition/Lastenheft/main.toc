@@ -1,0 +1,14 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Problem Analyse}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Problembeschreibung}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Ursachenanalyse}{3}{subsection.1.2}
+\contentsline {section}{\numberline {2}Projektziele und Anforderungskatalog}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Projektziele}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Lastenheft}{3}{subsection.2.2}
+\contentsline {section}{\numberline {3}Entwurf von Projektergebnissen ("L\IeC {\"o}sungskonzept") }{3}{section.3}
+\contentsline {section}{\numberline {4}Durchf\IeC {\"u}hrbarkeitsanalyse}{4}{section.4}
+\contentsline {section}{\numberline {5}Projektvertrag}{4}{section.5}
+\contentsline {section}{\numberline {6}Projektorganisation}{4}{section.6}
+\contentsline {subsection}{\numberline {6.1}Projektleitung und Projektteam}{4}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Projektinfrastruktur}{4}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Projektinformationssystem}{4}{subsection.6.3}

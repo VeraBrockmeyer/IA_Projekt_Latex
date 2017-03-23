@@ -1,0 +1,355 @@
+\begin{thebibliography}{10}
+
+\bibitem{website:UEyeTechSpec}
+{Unity}.
+\newblock
+  \url{https://www.1stvision.com/cameras/IDS/dataman/uEyeLE_Brochure_english_ND.pdf}.
+\newblock Aufgerufen: 13. März 2017.
+
+\bibitem{website:IDSSuite}
+{Unity}.
+\newblock \url{https://de.ids-imaging.com/ids-software-suite.html}.
+\newblock Aufgerufen: 13. März 2017.
+
+\bibitem{rfc793}
+{RFC 793: Transmission Control Protocol}.
+\newblock \url{https://rfc-editor.org/rfc/rfc793.txt}, 1981.
+\newblock Aufgerufen: 21. März 2017.
+
+\bibitem{article:MarkerLessBarandiaran2010}
+I{\~{n}}igo Barandiaran, C{\'e}line Paloc, and Manuel Gra{\~{n}}a.
+\newblock Real-time optical markerless tracking for augmented reality
+  applications.
+\newblock {\em Journal of Real-Time Image Processing}, 5(2):129--138, 2010.
+
+\bibitem{article:MarkerLessBlasko}
+G.~Blasko and P.~Fua.
+\newblock Real-time 3d object recognition for automatic tracker initialization.
+\newblock In {\em Augmented Reality, 2001. Proceedings. IEEE and ACM
+  International Symposium on}, pages 175--176, 2001.
+
+\bibitem{bray1998extensible}
+Tim Bray, Jean Paoli, C~Michael Sperberg-McQueen, Eve Maler, and Fran{\c{c}}ois
+  Yergeau.
+\newblock Extensible markup language (xml).
+\newblock {\em World Wide Web Consortium Recommendation REC-xml-19980210.
+  http://www. w3. org/TR/1998/REC-xml-19980210}, 16:16, 1998.
+
+\bibitem{bryson1995approaches}
+Steve Bryson.
+\newblock Approaches to the successful design and implementation of vr
+  applications.
+\newblock {\em Virtual reality applications}, pages 3--15, 1995.
+
+\bibitem{chu1997multi}
+Chi-Cheng~P Chu, Tushar~H Dani, and Rajit Gadh.
+\newblock Multi-sensory user interface for a virtual-reality-based
+  computeraided design system.
+\newblock {\em Computer-Aided Design}, 29(10):709--725, 1997.
+
+\bibitem{article:MarkerLessComport}
+A.~I. Comport, E.~Marchand, M.~Pressigout, and F.~Chaumette.
+\newblock Real-time markerless tracking for augmented reality: the virtual
+  visual servoing framework.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  12(4):615--628, July 2006.
+
+\bibitem{website:Senz3d}
+{Creative}.
+\newblock {Creative Senz3D, Tiefen- und Gestenerkennungskamera für PCs }.
+\newblock \url{http://de.creative.com/p/web-cameras/creative-senz3d}.
+\newblock Aufgerufen: 19. März 2017.
+
+\bibitem{article:OpenCV}
+I.~Culjak, D.~Abram, T.~Pribanic, H.~Dzapo, and M.~Cifrek.
+\newblock A brief introduction to opencv.
+\newblock In {\em 2012 Proceedings of the 35th International Convention MIPRO},
+  pages 1725--1730, May 2012.
+
+\bibitem{article:MarkerLessStrucktDamen}
+Dima Damen, Pished Bunnun, Andrew Calway, and Walterio Mayol-cuevas.
+\newblock Realtime learning and detection of 3d texture-less objects: A
+  scalable approach.
+\newblock In {\em in British Machine Vision Conference (BMVC}, 2012.
+
+\bibitem{article:RamerPeucker}
+David~H. Douglas and Thomas~K. Peucker.
+\newblock {\em Algorithms for the Reduction of the Number of Points Required to
+  Represent a Digitized Line or its Caricature}, pages 15--28.
+\newblock John Wiley & Sons, Ltd, 2011.
+
+\bibitem{faugeras1993three}
+O.~Faugeras.
+\newblock {\em Three-dimensional Computer Vision: A Geometric Viewpoint}.
+\newblock Artificial intelligence. MIT Press, 1993.
+
+\bibitem{article:MarkerARTag}
+M.~Fiala.
+\newblock Designing highly reliable fiducial markers.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  32(7):1317--1324, July 2010.
+
+\bibitem{article:MarkerBinAR}
+Daniel Flohr and Jan Fischer.
+\newblock A lightweight id-based extension for marker tracking systems.
+\newblock In {\em Eurographics Symposium on Virtual Environments (EGVE) Short
+  Paper Proceedings}, pages 59--64, 2007.
+
+\bibitem{article:Aruco2014}
+S.~Garrido-Jurado, R.~Mu\ noz Salinas, F.J. Madrid-Cuevas, and M.J.
+  Mar\'in-Jim\'enez.
+\newblock Automatic generation and detection of highly reliable fiducial
+  markers under occlusion.
+\newblock {\em Pattern Recognition}, 47(6):2280 -- 2292, 2014.
+
+\bibitem{article:ArucoDictGarridoJurado2015}
+S.~Garrido-Jurado, R.~Mu\ noz Salinas, F.J. Madrid-Cuevas, and
+  R.~Medina-Carnicer.
+\newblock Generation of fiducial marker dictionaries using mixed integer linear
+  programming.
+\newblock {\em Pattern Recognition}, 51:481 -- 491, 2016.
+
+\bibitem{website:googleCardboard}
+{Google}.
+\newblock {Cardboard}.
+\newblock \url{https://vr.google.com/cardboard/}.
+\newblock Aufgerufen: 20. März 2017.
+
+\bibitem{haas2014history}
+John Haas.
+\newblock {\em A History of the Unity Game Engine}.
+\newblock PhD thesis, Worcester Polytechnic Institute, 2014.
+
+\bibitem{article:MarkerLessStrucktHinterstoisser}
+S.~Hinterstoisser, C.~Cagniart, S.~Ilic, P.~Sturm, N.~Navab, P.~Fua, and
+  V.~Lepetit.
+\newblock Gradient response maps for real-time detection of textureless
+  objects.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  34(5):876--888, May 2012.
+
+\bibitem{website:HTC_Vive}
+{HTC}.
+\newblock {HTC Vive}.
+\newblock \url{https://www.vive.com/}.
+\newblock Aufgerufen: 30. November 2016.
+
+\bibitem{website:HTC_Vive_Ready}
+{HTC}.
+\newblock {HTC Vive -- Für Vive geeignete Computer}.
+\newblock \url{https://www.vive.com/de/ready/}.
+\newblock Aufgerufen: 18. März 2017.
+
+\bibitem{ITU}
+ITU-T.
+\newblock {Data Networks and Open System Communication. Open Systems
+  Interconnection - Model and Notation}.
+\newblock \url{http://handle.itu.int/11.1002/1000/2820}, 1994.
+\newblock Aufgerufen: 21. März 2017.
+
+\bibitem{article:MarkerARTOOL}
+H.~Kato and M.~Billinghurst.
+\newblock Marker tracking and hmd calibration for a video-based augmented
+  reality conferencing system.
+\newblock In {\em Augmented Reality, 1999. (IWAR '99) Proceedings. 2nd IEEE and
+  ACM International Workshop on}, pages 85--94, 1999.
+
+\bibitem{website:LeapMotion}
+{Leap Motion}.
+\newblock {Leap Motion}.
+\newblock \url{https://www.leapmotion.com/}.
+\newblock Aufgerufen: 30. November 2016.
+
+\bibitem{website:LeapMotionBlog}
+{Leap Motion}.
+\newblock {Leap Motion Blog}.
+\newblock
+  \url{http://blog.leapmotion.com/hardware-to-software-how-does-the-leap-motion-controller-work/}.
+\newblock Aufgerufen: 2. Januar 2017.
+
+\bibitem{article:MarkerLessLowe}
+David~G. Lowe.
+\newblock Distinctive image features from scale-invariant keypoints.
+\newblock {\em International Journal of Computer Vision}, 60(2):91--110, 2004.
+
+\bibitem{article:MarkerLessEdgeAlvarez}
+H.~Álvarez, I.~Aguinaga, and D.~Borro.
+\newblock Providing guidance for maintenance operations using automatic
+  markerless augmented reality system.
+\newblock In {\em 2011 10th IEEE International Symposium on Mixed and Augmented
+  Reality}, pages 181--190, Oct 2011.
+
+\bibitem{Meisel:77890}
+Andreas Meisel.
+\newblock {\em 3{D}-{B}ildverarbeitung für feste und bewegte {K}ameras}.
+\newblock PhD thesis, Braunschweig [u.a.], 1994.
+\newblock Zugl.: Aachen, Techn. Hochsch., Diss., 1993 u.d.T.: Meisel, Andreas:
+  3D-Bildverarbeitung für feste und bewegte Kameras auf photogrammetrischer
+  Basis.
+
+\bibitem{website:VisuStud}
+{Microsoft}.
+\newblock {Introducing Visual Studio}.
+\newblock
+  \url{https://msdn.microsoft.com/en-us/library/fx6bk1f4(v=vs.90).aspx}.
+\newblock Aufgerufen: 18. März 2017.
+
+\bibitem{website:mobileworldcongress}
+{Mobile World Congress}.
+\newblock {Mobile World Congress}.
+\newblock \url{https://www.mobileworldcongress.com/}.
+\newblock Aufgerufen: 30. November 2016.
+
+\bibitem{website:webVR}
+{Mozilla}.
+\newblock {Introducing the WebVR 1.0 API Proposal}.
+\newblock
+  \url{https://hacks.mozilla.org/2016/03/introducing-the-webvr-1-0-api-proposal/}.
+\newblock Aufgerufen: 20. März 2017.
+
+\bibitem{website:UnityOculus}
+{Oculus}.
+\newblock {Oculus -- Unity Intro}.
+\newblock
+  \url{https://developer3.oculus.com/documentation/game-engines/latest/concepts/unity-intro/}.
+\newblock Aufgerufen: 14. März 2017.
+
+\bibitem{website:Calib3dDoc}
+{OpenCV}.
+\newblock {Camera Calibration and 3D Reconstruction}.
+\newblock \url{http://docs.opencv.org/3.1.0/d9/d0c/group__calib3d.html}.
+\newblock Aufgerufen: 18. März 2017.
+
+\bibitem{website:ArucoDoc}
+{OpenCV}.
+\newblock {Detection of ArUco Markers}.
+\newblock
+  \url{http://docs.opencv.org/3.1.0/d5/dae/tutorial_aruco_detection.html}.
+\newblock Aufgerufen: 18. März 2017.
+
+\bibitem{website:ovrvision}
+{Ovrvision Pro}.
+\newblock {Ovrvision Pro}.
+\newblock \url{http://ovrvision.com/}.
+\newblock Aufgerufen: 30. November 2016.
+
+\bibitem{website:ovrvisionSetup}
+{Ovrvision Pro}.
+\newblock {Ovrvision Pro -- Informationen für Entwickler}.
+\newblock \url{http://ovrvision.com/setup-en/}.
+\newblock Aufgerufen: 14. März 2017.
+
+\bibitem{website:ovrvisionProduct}
+{Ovrvision Pro}.
+\newblock {Ovrvision Pro -- Produktdetails}.
+\newblock \url{http://ovrvision.com/product-en/}.
+\newblock Aufgerufen: 9. März 2017.
+
+\bibitem{article:MarkerLessStrucktPark}
+Y.~Park, V.~Lepetit, and W.~Woo.
+\newblock Texture-less object tracking with online training using an rgb-d
+  camera.
+\newblock In {\em 2011 10th IEEE International Symposium on Mixed and Augmented
+  Reality}, pages 121--126, Oct 2011.
+
+\bibitem{rfc768}
+J.~Postel.
+\newblock {RFC 768. User Datagram Protocol}.
+\newblock \url{https://tools.ietf.org/html/rfc768}, August 1980.
+\newblock Aufgerufen: 21. März 2017.
+
+\bibitem{quinn1998windows}
+Bob Quinn.
+\newblock {\em Windows sockets network programming}.
+\newblock Addison-Wesley Longman Publishing Co., Inc., 1998.
+
+\bibitem{5982395}
+T.~Rahman and N.~Krouglicof.
+\newblock An efficient camera calibration technique offering robustness and
+  accuracy over a wide range of lens distortion.
+\newblock {\em IEEE Transactions on Image Processing}, 21(2):626--637, Feb
+  2012.
+
+\bibitem{article:MarkerLessEdgeMarchand}
+Éric Marchand and François Chaumette.
+\newblock Feature tracking for visual servoing purposes.
+\newblock {\em Robotics and Autonomous Systems}, 52(1):53 -- 70, 2005.
+\newblock Advances in Robot Vision.
+
+\bibitem{website:gearVRpressRelease}
+{Samsung}.
+\newblock {Samsung Explores the World of Mobile Virtual Reality with Gear VR}.
+\newblock
+  \url{http://www.samsungmobilepress.com/press/Samsung-Explores-the-World-of-Mobile-Virtual-Reality-with-Gear-VR?2014-09-03}.
+\newblock Aufgerufen: 20. März 2017.
+
+\bibitem{article:FindConturs}
+Satoshi Suzuki and KeiichiA be.
+\newblock Topological structural analysis of digitized binary images by border
+  following.
+\newblock {\em Computer Vision, Graphics, and Image Processing}, 30(1):32 --
+  46, 1985.
+
+\bibitem{website:Unity}
+{Unity Technologies}.
+\newblock {Unity}.
+\newblock \url{https://unity3d.com/de}.
+\newblock Aufgerufen: 8. März 2017.
+
+\bibitem{website:UnityMultiPlatform}
+{Unity Technologies}.
+\newblock {Unity -- Multiplatform}.
+\newblock \url{https://unity3d.com/unity/multiplatform}.
+\newblock Aufgerufen: 14. März 2017.
+
+\bibitem{website:UnityPR}
+{Unity Technologies}.
+\newblock {Unity -- Public Relations}.
+\newblock \url{https://unity3d.com/public-relations}.
+\newblock Aufgerufen: 14. März 2017.
+
+\bibitem{website:UnityVRoverview}
+{Unity Technologies}.
+\newblock {Unity -- VR Overview}.
+\newblock
+  \url{https://unity3d.com/de/learn/tutorials/topics/virtual-reality/vr-overview}.
+\newblock Aufgerufen: 14. März 2017.
+
+\bibitem{article:MarkerLessModellVacchetti}
+L.~Vacchetti, V.~Lepetit, and P.~Fua.
+\newblock Stable real-time 3d tracking using online and offline information.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  26(10):1385--1391, Oct 2004.
+
+\bibitem{website:Valve}
+{Valve}.
+\newblock {Valve Software}.
+\newblock \url{http://www.valvesoftware.com/}.
+\newblock Aufgerufen: 30. November 2016.
+
+\bibitem{article:MarkerLessWagner:}
+Daniel Wagner, Gerhard Reitmayr, Alessandro Mulloni, Tom Drummond, and Dieter
+  Schmalstieg.
+\newblock Real-time detection and tracking for augmented reality on mobile
+  phones.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  16(3):355--368, May 2010.
+
+\bibitem{article:MarkerARTOOL2}
+Daniel Wagner and Dieter Schmalstieg.
+\newblock Artoolkitplus for pose tracking on mobile devices, 2007.
+
+\bibitem{article:MarkerLessEdgeWu}
+Li-Chen Wu, I-Chen Lin, and Ming-Han Tsai.
+\newblock Augmented reality instruction for object assembly based on markerless
+  tracking.
+\newblock In {\em Proceedings of the 20th ACM SIGGRAPH Symposium on Interactive
+  3D Graphics and Games}, I3D '16, pages 95--102, New York, NY, USA, 2016. ACM.
+
+\bibitem{888718}
+Z.~Zhang.
+\newblock A flexible new technique for camera calibration.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  22(11):1330--1334, Nov 2000.
+
+\end{thebibliography}
