@@ -1,0 +1,72 @@
+%******************************FORMATIERUNG****************************************
+\documentclass[a4paper, 12pt]{article}
+\usepackage{scrpage2}
+\usepackage{todonotes}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{caption}
+\pagestyle{scrheadings}
+\clearscrheadfoot
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[space]{grffile}
+\usepackage{setspace}
+\usepackage[T1]{fontenc}
+\newcommand{\changefont}[3]{
+\fontfamily{#1} \fontseries{#2} \fontshape{#3} \selectfont}
+\usepackage{datetime}
+\newdateformat{monthyeardate}{%
+  \monthname[\THEMONTH] \THEYEAR}
+\usepackage{geometry}
+\geometry{verbose,a4paper,tmargin=30mm,bmargin=30mm,lmargin=35mm,rmargin=25mm}
+\usepackage[numbers,square]{natbib}
+\usepackage[
+	breaklinks=true,
+	pdfauthor={Laura Anger, Vera Brockmeyer, Paul Berning, Lukas Kolhagen},
+	pdftitle={Masterprojekt - MArC},
+	pdftoolbar=true,
+	pdfsubject={Mixed Reality Architecture Composer},
+	colorlinks=true,
+	linkcolor=blue,
+	citecolor=blue,
+	urlcolor=blue,
+	linktocpage=true
+	]{hyperref}
+\usepackage{algorithmicx}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage[ruled]{algorithm}
+\usepackage{algpseudocode}
+\usepackage{pdfpages}
+\usepackage[
+	font=small,
+	labelfont=bf, 
+	format=plain,
+	indention=1cm
+	]{caption}
+\setlength{\parindent}{0pt} 
+\setlength{\parskip}{.5em}
+\usepackage{color}
+\definecolor{myColor}{rgb}{0.8,0.8,0.8}
+\newcommand{\Absatzbox}[1]{\parbox[0pt][2em][c]{0cm}{}}
+\usepackage{listings}
+
+%*****************************ENDE FORMATIERUNG****************************************
+
+\begin{document}
+%\linespread{1.2}
+%\changefont{ppl}{m}{n}
+
+\input{deckblatt.tex}
+\newpage
+\begin{tabular}{| l| l| l| l |}
+	\hline
+	\textbf{Quality goal} &	\textbf{Criterion} & \textbf{Method} & \textbf{Controlling} \\ \hline
+	Geringe Laufzeit & Maximal 3 Sekunden bei handelsüblichem Anschluss & 
+	Begrenzte Anzahl, sowie Kompression von Bildern und Grafiken & Aufrufen jeder
+	Unterseite mit 	Stoppuhr \\ \hline
+\end{tabular}
+
+
+\end{document}
