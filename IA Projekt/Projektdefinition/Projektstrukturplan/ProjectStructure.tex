@@ -1,0 +1,132 @@
+%******************************FORMATIERUNG****************************************
+\documentclass[a4paper, landscape, 12pt]{article}
+\usepackage{scrpage2}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{pstricks}
+\usepackage{pst-node}
+\usepackage[verbose,a4paper,margin=0mm, tmargin=1cm]{geometry}
+\definecolor{green}{rgb}{0, 0.8, 0}
+\definecolor{rot}{rgb}{0.7, 0.0, 0.0}
+\begin{document}
+	\thispagestyle{empty}
+	\begin{figure}[!htbp]
+		\centering
+			\begin{tabular}{cccccccccc}
+				\begin{psmatrix}[rowsep=.8, colsep=.2]
+					&\rnode{lab1}{\psframebox[fillstyle=solid,fillcolor=green]{\footnotesize\color{black}\emph{Interaction Lab}}}\psspan{8}\\ & & & &
+\rnode{lab}{\psframebox[fillstyle=solid,fillcolor=red!45]{\parbox{0.2cm}{\centering\footnotesize\color{red!45}\texttt{R}}}}\\ 			
+					
+					
+					\rnode{top1}{\psframebox[fillstyle=solid,fillcolor=black!45]{\parbox{2.0cm}{\centering\footnotesize\texttt{Research}}}}
+					&\rnode{top2}{\psframebox[fillstyle=solid,fillcolor=black!45]{\parbox{2.1cm}{\centering\footnotesize\texttt{Project Planning}}}}
+					&\rnode{top3}{\psframebox[fillstyle=solid,fillcolor=black!45]{\parbox{1.9cm}{\centering\footnotesize\texttt{Prototypes}}}}
+					&\rnode{top4}{\psframebox[fillstyle=solid,fillcolor=black!45]{\parbox{1.8cm}{\centering\footnotesize\texttt{Unity Project}}}}
+					&\rnode{top5}{\psframebox[fillstyle=solid,fillcolor=black!45]{\parbox{2.0cm}{\centering\footnotesize\texttt{Test Rooms}}}}
+					&\rnode{top6}{\psframebox[fillstyle=solid,fillcolor=black!45]{\parbox{2.2cm}{\centering\footnotesize\texttt{Close Range Interactions}}}}
+					&\rnode{top7}{\psframebox[fillstyle=solid,fillcolor=black!45]{\parbox{2.2cm}{\centering\footnotesize\texttt{Far Range Interactions}}}}
+					&\rnode{top8}{\psframebox[fillstyle=solid,fillcolor=black!45]{\parbox{1.2cm}{\centering\footnotesize\texttt{Menu Concept}}}}
+					&\rnode{top9}{\psframebox[fillstyle=solid,fillcolor=black!45]{\parbox{1.3cm}{\centering\footnotesize\texttt{Tasks for the User}}}}
+					&\rnode{top10}{\psframebox[fillstyle=solid,fillcolor=black!45]{\parbox{2.4cm}{\centering\footnotesize\texttt{Presentations and Documentation}}}}\\
+					
+					
+					
+					
+					
+					
+					
+					&\rnode{t1WP1}{\psframebox[fillstyle=solid,fillcolor=black!15]{\parbox{2.0cm}{\centering\footnotesize\texttt{\underline{WP 01:}\\ Research Tasks for the User}}}}
+					&\rnode{t2WP1}{\psframebox[fillstyle=solid,fillcolor=black!15]{\parbox{2.0cm}{\centering\footnotesize\texttt{\underline{WP 04:}\\ Finish Project Planning}}}}
+					&\rnode{t3WP1}{\psframebox[fillstyle=solid,fillcolor=black!15]{\parbox{2.0cm}{\centering\footnotesize\texttt{\underline{WP 05:}\\ Create Paper Mockup}}}}
+					&\rnode{t4WP1}{\psframebox[fillstyle=solid,fillcolor=black!15]{\parbox{2.0cm}{\centering\footnotesize\texttt{\underline{WP 08:}\\ Agree on Unity Version}}}}
+					&\rnode{t5WP1}{\psframebox[fillstyle=solid,fillcolor=black!15]{\parbox{2.0cm}{\centering\footnotesize\texttt{\underline{WP 10:}\\ Testroom one}}}}
+					&\rnode{t6WP1}{\psframebox[fillstyle=solid,fillcolor=black!15]{\parbox{2.0cm}{\centering\footnotesize\texttt{\underline{WP 12:}\\ First Close Range Interaction}}}}
+					&\rnode{t7WP1}{\psframebox[fillstyle=solid,fillcolor=black!15]{\parbox{2.0cm}{\centering\footnotesize\texttt{\underline{WP 15:}\\ First Far Range Interaction}}}}
+					&\rnode{t8WP1}{\psframebox[fillstyle=solid,fillcolor=black!15]{\parbox{2.0cm}{\centering\footnotesize\texttt{\underline{WP 18:}\\ Implemen- tation of the Menu Concept}}}}
+					&\rnode{t9WP1}{\psframebox[fillstyle=solid,fillcolor=black!15]{\parbox{2.0cm}{\centering\footnotesize\texttt{\underline{WP 19:}\\ Implemen- tation of the Tasks for the User}}}}
+					&\rnode{t10WP1}{\psframebox[fillstyle=solid,fillcolor=black!15]{\parbox{2.2cm}{\centering\footnotesize\texttt{\underline{WP 20:}\\ Milestone Presentation}}}}\\
+					
+					
+					
+					
+					&\rnode{t1WP2}{\psframebox[fillstyle=solid,fillcolor=black!15]{\parbox{2.0cm}{\centering\footnotesize\texttt{\underline{WP 02:} \\Close Range Interaction}}}}
+					&
+					&\rnode{t3WP2}{\psframebox[fillstyle=solid,fillcolor=black!15]{\parbox{2.0cm}{\centering\footnotesize\texttt{\underline{WP 06:}\\ Second Prototyp}}}} 
+					
+					&\rnode{t4WP2}{\psframebox[fillstyle=solid,fillcolor=black!15]{\parbox{2.0cm}{\centering\footnotesize\texttt{\underline{WP 09:}\\ Create Unity Project}}}}
+					&\rnode{t5WP2}{\psframebox[fillstyle=solid,fillcolor=black!15]{\parbox{2.0cm}{\centering\footnotesize\texttt{\underline{WP 011:}\\ Testroom two}}}}
+					&\rnode{t6WP2}{\psframebox[fillstyle=solid,fillcolor=black!15]{\parbox{2.0cm}{\centering\footnotesize\texttt{\underline{WP 13:} \\Second Close Range Interaction}}}}
+					&\rnode{t7WP2}{\psframebox[fillstyle=solid,fillcolor=black!15]{\parbox{2.0cm}{\centering\footnotesize\texttt{\underline{WP 16:} \\Second Far Range Interaction}}}}
+					&&
+					&\rnode{t10WP2}{\psframebox[fillstyle=solid,fillcolor=black!15]{\parbox{2.2cm}{\centering\footnotesize\texttt{\underline{WP 21:}\\ Final Presentation}}}}\\
+					
+					
+					&\rnode{t1WP3}{\psframebox[fillstyle=solid,fillcolor=black!15]{\parbox{2.0cm}{\centering\footnotesize\texttt{\underline{WP 03:}\\ Far Range Interaction}}}}
+					&
+					&\rnode{t3WP3}{\psframebox[fillstyle=solid,fillcolor=black!15]{\parbox{2.0cm}{\centering\footnotesize\texttt{\underline{WP 07:}\\ Third Prototyp}}}} 
+					&&
+					&\rnode{t6WP3}{\psframebox[fillstyle=solid,fillcolor=black!15]{\parbox{2.0cm}{\centering\footnotesize\texttt{\underline{WP 14:}\\ Third Close Range Interaction}}}}					
+					&\rnode{t7WP3}{\psframebox[fillstyle=solid,fillcolor=black!15]{\parbox{2.0cm}{\centering\footnotesize\texttt{\underline{WP 17:}\\ Third Far Range Interaction}}}}
+					&&
+					&\rnode{t10WP3}{\psframebox[fillstyle=solid,fillcolor=black!15]{\parbox{2.2cm}{\centering\footnotesize\texttt{\underline{WP 22:}\\ Documentary}}}}\\
+					
+			
+					
+				
+										
+					\\
+				\end{psmatrix}					
+				\ncline{lab1}{lab}
+				\ncangle[angleA=180, angleB=90]{lab}{top1}
+				\ncangle[angleA=180, angleB=90]{lab}{top2}
+				\ncangle[angleA=180, angleB=90]{lab}{top3}
+				\ncangle[angleA=180, angleB=90]{lab}{top4}
+				\ncangle[angleA=270, angleB=90]{lab}{top5}
+				\ncangle[angleA=360, angleB=90]{lab}{top6}
+				\ncangle[angleA=360, angleB=90]{lab}{top7}
+				\ncangle[angleA=360, angleB=90]{lab}{top8}
+				\ncangle[angleA=360, angleB=90]{lab}{top9}
+				\ncangle[angleA=360, angleB=90]{lab}{top10}
+				
+				\ncline{top1}{t1WP1}
+				\ncline{t1WP1}{t1WP2}
+				\ncline{t1WP2}{t1WP3}
+				
+				\ncline{top2}{t2WP1}
+				
+				\ncline{top3}{t3WP1}
+				\ncline{t3WP1}{t3WP2}
+				\ncline{t3WP2}{t3WP3}
+				
+				\ncline{top4}{t4WP1}
+				\ncline{t4WP1}{t4WP2}
+				
+				\ncline{top5}{t5WP1}
+				\ncline{t5WP1}{t5WP2}
+				
+				\ncline{top6}{t6WP1}
+				\ncline{t6WP1}{t6WP2}
+				\ncline{t6WP2}{t6WP3}
+				
+				\ncline{top7}{t7WP1}
+				\ncline{t7WP1}{t7WP2}
+				\ncline{t7WP2}{t7WP3}
+				
+				\ncline{top8}{t8WP1}
+				
+				\ncline{top9}{t9WP1}
+				
+				\ncline{top10}{t10WP1}
+				\ncline{t10WP1}{t10WP2}
+				\ncline{t10WP2}{t10WP3}
+				
+				%\ncline{t3WP1}{pro1}
+				
+				%\ncline{t3WP1}{pro2}
+				
+				
+			\end{tabular}	
+			\caption{Structure of \textit{Interaction Lab}}					
+	\end{figure}
+	
+\end{document}\caption
