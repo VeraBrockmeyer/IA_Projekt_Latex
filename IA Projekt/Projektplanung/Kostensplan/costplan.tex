@@ -1,0 +1,90 @@
+%******************************FORMATIERUNG****************************************
+\documentclass[a4paper, 12pt]{article}
+\usepackage{scrpage2}
+\usepackage{todonotes}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{caption}
+\pagestyle{scrheadings}
+\clearscrheadfoot
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[space]{grffile}
+\usepackage{setspace}
+\usepackage[T1]{fontenc}
+\newcommand{\changefont}[3]{
+\fontfamily{#1} \fontseries{#2} \fontshape{#3} \selectfont}
+\usepackage{datetime}
+\newdateformat{monthyeardate}{%
+  \monthname[\THEMONTH] \THEYEAR}
+\usepackage{geometry}
+\geometry{verbose,a4paper,tmargin=30mm,bmargin=30mm,lmargin=35mm,rmargin=25mm}
+\usepackage[numbers,square]{natbib}
+\usepackage[
+	breaklinks=true,
+	pdfauthor={Laura Anger, Vera Brockmeyer, Paul Berning, Lukas Kolhagen},
+	pdftitle={Masterprojekt - MArC},
+	pdftoolbar=true,
+	pdfsubject={Mixed Reality Architecture Composer},
+	colorlinks=true,
+	linkcolor=blue,
+	citecolor=blue,
+	urlcolor=blue,
+	linktocpage=true
+	]{hyperref}
+\usepackage{algorithmicx}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage[ruled]{algorithm}
+\usepackage{algpseudocode}
+\usepackage{pdfpages}
+\usepackage[
+	font=small,
+	labelfont=bf, 
+	format=plain,
+	indention=1cm
+	]{caption}
+\setlength{\parindent}{0pt} 
+\setlength{\parskip}{.5em}
+\usepackage{color}
+\definecolor{myColor}{rgb}{0.8,0.8,0.8}
+\newcommand{\Absatzbox}[1]{\parbox[0pt][2em][c]{0cm}{}}
+\usepackage{listings}
+
+%*****************************ENDE FORMATIERUNG****************************************
+
+\begin{document}
+%\linespread{1.2}
+%\changefont{ppl}{m}{n}
+
+\input{Deckblatt.tex}
+\newpage
+\begin{tabular}{| p{\textwidth/4}| p{\textwidth/4}| p{\textwidth/4}| p{\textwidth/4} |}
+	\hline 
+	\textbf{Quality goal} &	\textbf{Criterion} & \textbf{Method} & \textbf{Controlling} \\ \hline \hline
+%%overall -VR
+small latency & 20 ms maximum & simple rooms and the calculation should not be too expensive & testing, fps rate shown in unity \\ \hline
+no dropouts & no blackframe or errors in the unity project & no expensive calculations, not do much calculations parallel & testing \\ \hline
+immersive & scene should be as real as possible & realistic objects, moving like in reality & testing \\ \hline  
+%% Scene
+learning & ability to learn and test all interactions & learning room, simple, without tasks, always start in this room & testing \\ \hline
+realistic & scene should be as real as possible & realistic objects, moving like in reality, textures & testing \\ \hline  
+different sizes of objects & small as well as big objects within the scenes & create a room where it is natural that there are different sizes of objects (for example supermarket) & testing and looking for all sizes \\ \hline  
+%% selection near/far?
+accuracy of selection & user grab the right object, the space that selects an object is not that big? & user is using best interaction for object, interactions are as good as possible implemented & usability study, tasks, scene(?) recognizes if the correct object is picked \\ \hline  
+correct movement of an object & if the object is grabbed, the movement of the object is according to the hand & parenting the object to the movement of the controller, if it is grabbed & testing, measurement of the positions? \\ \hline 
+duration to finish a specific task & time, tasks & measure time between the time when tasks starts and time when the tasks is finished & time, time should not be to long? \\ \hline  
+successful fulfilment of a specific task & tasks, correct objects & scene(?) recognizes if the correct object is picked, person from the outside looks for the correction??? & implemented correction, study, testing \\ \hline 
+%%  tasks
+understandability of tasks & object, term, assignment of tasks & clear, easy to understand, use common objects & testing \\ \hline 
+
+%% hardware
+correct use of the HTC Vive??? 
+%% Dates
+milestones? 
+
+\end{tabular}
+
+%%  Quality goal   &	   Criterion   &    Method    &    Controlling
+\end{document}
