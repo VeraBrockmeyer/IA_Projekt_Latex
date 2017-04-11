@@ -1,0 +1,97 @@
+%******************************FORMATIERUNG****************************************
+\documentclass[a4paper, 12pt]{article}
+\usepackage{scrpage2}
+\usepackage{todonotes}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{caption}
+\pagestyle{scrheadings}
+\clearscrheadfoot
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[space]{grffile}
+\usepackage{setspace}
+\usepackage[T1]{fontenc}
+\newcommand{\changefont}[3]{
+\fontfamily{#1} \fontseries{#2} \fontshape{#3} \selectfont}
+\usepackage{datetime}
+\newdateformat{monthyeardate}{%
+  \monthname[\THEMONTH] \THEYEAR}
+\usepackage{geometry}
+\geometry{verbose,a4paper,tmargin=30mm,bmargin=30mm,lmargin=35mm,rmargin=25mm}
+\usepackage[numbers,square]{natbib}
+\usepackage[
+	breaklinks=true,
+	pdfauthor={Laura Anger, Vera Brockmeyer, Anna Bolder, Britta Boerner},
+	pdftitle={Interaction Lab},
+	pdftoolbar=true,
+	pdfsubject={Interaction Lab},
+	colorlinks=true,
+	linkcolor=blue,
+	citecolor=blue,
+	urlcolor=blue,
+	linktocpage=true
+	]{hyperref}
+\usepackage{algorithmicx}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage[ruled]{algorithm}
+\usepackage{algpseudocode}
+\usepackage{pdfpages}
+\usepackage[
+	font=small,
+	labelfont=bf, 
+	format=plain,
+	indention=1cm
+	]{caption}
+\setlength{\parindent}{0pt} 
+\setlength{\parskip}{.5em}
+\usepackage{color}
+\definecolor{myColor}{rgb}{0.8,0.8,0.8}
+\newcommand{\Absatzbox}[1]{\parbox[0pt][2em][c]{0cm}{}}
+\usepackage{listings}
+
+%*****************************ENDE FORMATIERUNG****************************************
+
+\begin{document}
+%\linespread{1.2}
+%\changefont{ppl}{m}{n}
+
+\input{Deckblatt.tex}
+\newpage
+
+\LARGE{Quality Measurements}
+\section {Immersion and Presence:} 
+\small To give the user the opportunity to compare all grabbing interactions without being distract by the real world, it is quiet important to make sure, that the test scene is as immersive and present as possible. Because both characteristics are subjective impressions, they will be measured by the \textit{Presence Questionnaire} by Witmer and Singer (1998) \cite{witmer1998measuring}. Because we do not have any sound or haptic features the according questions will be left out. 
+
+\section {Low Latency: }
+To achieve a low latency of under $20 ms$ we will keep the scenes as simple as possible. To document a stable latency we will show the frames per second in the Unity console. 
+
+\section {Tasks: }
+After completing the learning session the user gets three different tasks. \\
+ 1. Task: the user can choose which methods suits him the best for completing the task. There will be subtasks which be easier to solve with far range interaction methods and subtasks which are better solvable with close range interaction methods. \\
+ 2. Task: will be a task that can only be solved using close range interaction methods. \\
+ 3. Task: will be a task that can only be solved using far range interaction methods. 
+
+
+\subsection{Usage of Interaction Methods}
+For task 1 the user can choose which interaction method to use. This Selection will be recorded. Especially the method which was used to fulfil the subtasks. This will lead to a percentaged evaluation. 
+
+\subsection{Duration to Finish a Task}
+At the moment the user starts a task a timer will be automatically activated and will be terminated once the last object is placed into target area. 
+
+\subsection{Successful Fulfilment}
+The task is only fulfilled successfully when all demanded objects have been placed into the target area. 
+
+\section {Accuracy of Selection: }
+...\cite{bowman1997evaluation}
+
+
+
+
+
+\bibliographystyle{plain}
+\renewcommand{\refname}{References}
+\bibliography{main}
+\end{document}
