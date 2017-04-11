@@ -70,22 +70,30 @@ To achieve a low latency of under $20 ms$ we will keep the scenes as simple as p
 
 \section {Tasks: }
 After completing the learning session the user gets three different tasks. \\
- 1. Task: the user can choose which methods suits him the best for completing the task. There will be subtasks which be easier to solve with far range interaction methods and subtasks which are better solvable with close range interaction methods. \\
- 2. Task: will be a task that can only be solved using close range interaction methods. \\
- 3. Task: will be a task that can only be solved using far range interaction methods. 
+\begin{description}
+\item [1. Task:] the user can choose which methods suits him the best for completing the task. There will be subtasks which be easier to solve with far range interaction methods and subtasks which are better solvable with close range interaction methods. \\
+\item [2. Task:] will be a task that can only be solved using close range interaction methods. \\
+ \item [3. Task:] will be a task that can only be solved using far range interaction methods. \\
+ Every Task is divided into subtasks. 
+ \end{description}
 
 
 \subsection{Usage of Interaction Methods}
 For task 1 the user can choose which interaction method to use. This Selection will be recorded. Especially the method which was used to fulfil the subtasks. This will lead to a percentaged evaluation. 
 
-\subsection{Duration to Finish a Task}
-At the moment the user starts a task a timer will be automatically activated and will be terminated once the last object is placed into target area. 
+\subsection{Completion Time}
+As decribed in \cite{poupyrev1997framework} and \cite{bowman1997evaluation} we distinguish between two different times to measure. On one hand the grabbing time needs to be determined. It starts when the user presses the button to start the next subtask and ends when the right object is grabbed. This means that grabbing a wrong object won't stop the time. On the other hand the positioning time, which is defined as the time between grabbing an object and placing it in the target area, must be measured. 
+
 
 \subsection{Successful Fulfilment}
-The task is only fulfilled successfully when all demanded objects have been placed into the target area. 
+The subtask is only fulfilled successfully when the demanded object has been placed into the target area. 
 
-\section {Accuracy of Selection: }
-...\cite{bowman1997evaluation}
+\subsection{Accuracy of Selection: }
+To evaluate the accuracy we plan to measure the error rate, which is \glqq the number of failed attempts to accomplish the task\grqq{} \cite{poupyrev1997framework}. Similar to the determination of the completion time we will distinguish between the number of failed attempts to select the demanded object and its positioning in the target area. An attempt is counted as failed when the accuracy (\glqq the proximity to the desiredposition or orientation of the testobject\grqq{} \cite{poupyrev1997framework}) drops under a defined threshold. 
+
+
+
+
 
 
 
